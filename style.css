@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+/* for black background on back */
+.back-cover,.top-cover{
+   
+    display: flex;
+    justify-content: center;
+    
+   
+    
+    
+    
+}
+.back-cover div,.back-cover div:first-child img{
+    width: 46em;
+    height: 36em;
+    border-radius: 1em;
+
+}
+/* for images and bg on landing page */
+.back-cover div:first-child img,.top-cover div:first-child img
+{
+   
+    
+    position: relative;
+}
+
+.back-cover div:nth-child(2) {
+    
+    background-color:rgba(43, 42, 47, 0.93);
+    position: absolute;
+   
+   
+}
+.top-cover div:nth-child(2){
+    background-color:rgba(43, 42, 47, 0.8);
+    position: absolute;
+    
+}
+
+.top-cover div,.top-cover div:first-child img{
+    width: 41em;
+    height: 24em;
+   
+
+}
+body section:first-child
+{
+   display: flex;
+   justify-content: center;
+}
+section{
+    margin: 1em 5em ;
+}
+.top-cover{
+    position: absolute;
+   
+    margin-top: 2em;
+  }
+h1{
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+    font-size: 3.2em;
+    margin: 0.5em 0px 0px 0px;
+    font-weight: bolder;
+   
+   
+    
+}
+.top-text p{
+    color: #7d7c83;
+    font-size: 0.7em;
+    margin-left: 4em;
+}
+.icon-line
+{
+    font-size: 0.3em;
+    
+}
+
+.top-text{
+    position: absolute;
+    
+    width: 20em;
+    height: 20em;
+    left: 25em;
+    top: 5em;
+
+}
+span{
+   padding: 0.5em 0.6em;
+    background-color: #ef4136;
+    color: lightgoldenrodyellow;
+    font-size: 1em;
+    font-weight: bold;
+}
+.tri-div {
+    background-color:#f3f3f3;
+    position: absolute;
+    width: 25em;
+    height: 24em;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    
+    
+}
+.tri-image img{
+    position: absolute;
+    width:25em;
+    height: 24em;
+    opacity: 0.1;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+.triangle{
+position: absolute;
+top: 3em;
+left: 38em;
+}
+.footer{
+    width: 41.4em;
+    height: 9.9em;
+    background-color: #fcfcfc;
+    position: absolute;
+    top: 27em;
+    left: 21.6em;
+}
+article p{
+    font-family: 'Merriweather', serif;
+    margin: 3em 8em;
+    font-size: 1.1em;
+    text-align: center;
+    color: #818181;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+
+}
+
